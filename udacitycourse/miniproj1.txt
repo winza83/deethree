@@ -1,0 +1,8 @@
+ideas for mini project
+- suburb, number of stops by mode.
+- suburb and property values
+
+http://www.dtpli.vic.gov.au/property-and-land-titles/property-information/property-prices
+ptv api
+
+

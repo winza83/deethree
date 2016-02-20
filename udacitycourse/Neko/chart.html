@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<head>
+<!--http://learnjsdata.com/read_data.html-->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+	<script type="text/javascript">
+		var svg = dimple.newSvg("body", 800, 600);
+		var d;
+	d3.tsv("nekodata.tsv",function(data){
+		data.forEach(function(d){
+			d["PowerLevel"] = d["PowerLevel"];
+			d["Top Item"] = d["Top Item"];
+			console.log(d);
+		});
+		//console.table(data);
+		d = data;
+
+		chart = new dimple.chart(svg, d);
+		chart.addCategoryAxis("x","Top Item");
+		chart.addMeasureAxis("y","PowerLevel");
+		chart.addSeries(null, dimple.plot.bubble);
+		chart.draw();
+
+	});
+
+	</script>
+</head>
+<body>
+</body>
+</html>

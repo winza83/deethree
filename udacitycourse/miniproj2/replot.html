@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<head>
+<!--http://learnjsdata.com/read_data.html-->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+	<script type="text/javascript">
+		var svg1 = dimple.newSvg("body", 400, 200);
+		var svg2 = dimple.newSvg("body", 400, 200);
+		var svg3 = dimple.newSvg("body", 400, 200);
+		var d;
+	d3.csv("data2.csv",function(data){
+		data.forEach(function(d){
+			d["Category"] = d["Category"];
+			d["Low Income"] = d["Low Income"];
+			d["Medium Income"] = d["Medium Income"];
+			d["High Income"] = d["High Income"];
+	//		console.log(d);
+		});
+
+		chart1 = new dimple.chart(svg1, data);
+//		chart1.setBounds(60, 30, 510, 330);
+		var x1 = chart1.addCategoryAxis("x","Category");
+		var y1 = chart1.addMeasureAxis("y","Low Income");
+		chart1.assignColor("All","green");
+		chart1.addSeries(null, dimple.plot.bar, [x1,y1]);
+		chart1.draw();
+
+		chart2 = new dimple.chart(svg2, data);
+		var x2 = chart2.addCategoryAxis("x", "Category");
+		var y2 = chart2.addMeasureAxis("y","Medium Income");
+		chart2.addSeries(null, dimple.plot.bar, [x2,y2]);
+		chart2.assignColor("All","blue");
+		chart2.draw();
+
+		chart3 = new dimple.chart(svg3, data);
+		var x3 = chart3.addCategoryAxis("x", "Category");
+		var y3 = chart3.addMeasureAxis("y", "High Income");
+		chart3.assignColor("All","Orange");
+		chart3.addSeries(null, dimple.plot.bar, [x3,y3]);
+		chart3.draw();
+	});
+
+	</script>
+</head>
+<body>
+</body>
+</html>
+

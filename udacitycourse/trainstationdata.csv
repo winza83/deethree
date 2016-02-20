@@ -1,0 +1,151 @@
+suburb, num_stops, num_lines
+Werribee,1,1
+Macleod,1,1
+Glenroy,3,1
+Burnley,1,4
+Kensington,2,1
+Mitcham,2,2
+Hughesdale,1,2
+Brunswick,3,1
+Thornbury,1,1
+Diggers Rest,1,1
+Parkville,1,1
+Cranbourne,1,1
+Chelsea,1,1
+Carnegie,1,2
+Camberwell,5,2
+Essendon,3,1
+Wattle Glen,1,1
+Mont Albert,1,2
+Greensborough,1,1
+Ferntree Gully,1,1
+Officer,1,1
+Diamond Creek,1,1
+Lynbrook,1,1
+Berwick,1,1
+Fitzroy North,1,1
+Sydenham,1,1
+Highett,1,1
+Abbotsford,2,2
+Windsor,1,1
+Flemington,2,1
+Surrey Hills,2,2
+Ringwood East,1,1
+Williamstown,3,1
+Eaglemont,1,1
+Clayton South,1,2
+Heidelberg,1,1
+Yarraville,1,2
+Clifton Hill,1,2
+Ashburton,2,1
+Hawthorn,2,3
+Lalor,1,1
+Sunbury,1,1
+Craigieburn,1,1
+Hoppers Crossing,1,1
+Rosanna,1,1
+Bayswater,1,1
+Bentleigh,2,1
+Nunawading,1,2
+Prahran,1,1
+Blackburn,2,2
+Malvern East,3,1
+Broadmeadows,1,1
+Mentone,1,1
+Mordialloc,1,1
+Seaford,2,1
+Ormond,1,1
+Seaholme,1,1
+Tyabb,1,1
+Baxter,1,1
+Dandenong,1,2
+Reservoir,3,1
+Aspendale,1,1
+Alphington,1,1
+Epping,1,1
+East Melbourne,1,2
+Moonee Ponds,1,1
+Fawkner,1,1
+Ripponlea,1,1
+Watsonia,1,1
+Upwey,1,1
+South Morang,1,1
+Altona,2,1
+Oakleigh,2,2
+Fairfield,1,1
+Richmond,4,2
+Murrumbeena,1,2
+Edithvale,1,1
+Heathmont,1,1
+Melbourne City,5,15
+Lilydale,1,1
+Bittern,1,1
+Cranbourne North,1,1
+Armadale,2,3
+Parkdale,1,1
+St Albans,3,1
+Brighton,4,1
+Mount Waverley,2,1
+Footscray,2,3
+Caulfield East,1,3
+Box Hill,1,2
+Canterbury,1,2
+Montmorency,1,1
+Coolaroo,2,1
+Hastings,1,1
+Cheltenham,1,1
+Thomastown,2,1
+Springvale,2,2
+Hawthorn East,1,3
+Preston,2,1
+Williams Landing,1,1
+Pakenham,2,1
+Noble Park,2,2
+Croydon,1,1
+Frankston,2,1
+South Yarra,2,4
+Carrum,1,1
+Balaclava,1,1
+Kooyong,1,1
+Somerville,1,1
+Northcote,5,1
+Belgrave,1,1
+Clayton,1,2
+Mooroolbark,1,1
+Spotswood,1,2
+Coburg,2,1
+Pascoe Vale,1,1
+Beaconsfield,1,1
+West Melbourne,1,6
+Coburg North,2,1
+Tecoma,1,1
+Seddon,1,2
+Sunshine,1,1
+Roxburgh Park,1,1
+West Footscray,2,1
+Narre Warren,1,1
+Bonbeach,1,1
+Malvern,2,1
+Glen Huntly,1,1
+Upper Ferntree Gully,1,1
+Ringwood,1,2
+Toorak,1,1
+Ascot Vale,1,1
+Sandringham,1,1
+Oak Park,1,1
+Boronia,1,1
+Hurstbridge,1,1
+North Melbourne,2,1
+Hampton,1,1
+Glen Waverley,2,1
+Mckinnon,1,1
+Sunshine North,1,1
+Ivanhoe,2,1
+Moorabbin,1,1
+Hallam,1,1
+Laverton,2,1
+Glen Iris,3,1
+Newport,1,2
+Elsternwick,1,1
+Crib Point,3,1
+Eltham,1,1

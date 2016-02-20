@@ -1,0 +1,13 @@
+http://viz.wtf/image/61604910467
+
+critique
+1. Factors/reasons not evident
+2. Pour choice of layout - overlapoing categories
+3. Numbers have no meaning.
+4. The circle and the weird polygon shapes were a distraction.
+5. Axis Text too small
+6. The rich category obscures the other two categories
+
+
+How I would change it.
+1. Change it into a bar chart

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+  <style>
+  circle.dimple-series-1  {
+  	fill: red;
+  }
+  h2 {
+  	text-align: center;
+  }
+  </style>
+    <script type="text/javascript">
+      function draw(data) {
+
+      /*
+        D3.js setup code
+        Bar charts - good in identifying missing data.
+        x axis - ordered variable.  bar chart is more suited for categorical data.
+      */
+
+          "use strict";	//enforce a restricted set of javacript withon the function.
+          var margin = 75,
+              width = 1400 - margin,
+              height = 600 - margin;
+
+		//console.table(data);
+         //debugger;
+
+		d3.select('body').append('h2').text('World Cup Attendance')
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')						//create a <g> svg group tag and
+                .attr('class','chart');			//create a class called chart.
+
+      /*
+        Dimple.js Chart construction code
+        Dimple.js terminology based on grammar of graphics.  and has a higher level of abstraction cf. d3.js
+      */
+			//the svg below is the svg defined in the d3 select call.
+
+          var myChart = new dimple.chart(svg, data); //creates chart object with a specified d3 element (svg) and specified data
+          var x = myChart.addTimeAxis("x", "year",null,"%Y");	//axis
+          x.dateParseFormat = "%Y";
+          x.timeInterval = 4;
+          myChart.addMeasureAxis("y", "attendance"); //fields aka columns
+         // myChart.addSeries(null, dimple.plot.bar);  //series.  if the first param is stage, then it creates a stacked bar chart.
+          myChart.addSeries(null, dimple.plot.line);
+          myChart.addSeries(null, dimple.plot.scatter);
+
+          myChart.draw();
+
+          //scatterplot - time series.
+          //scatterplot - x values are independent? not moving series?
+        };
+      </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+    */
+  d3.tsv("world_cup.tsv", draw);
+  </script>
+
+</body>
+</html>
+
+

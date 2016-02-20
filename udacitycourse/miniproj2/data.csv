@@ -1,0 +1,25 @@
+Wealth Class,Category,Value
+Medium Income,Qualifications,33
+Medium Income,Cunning,21
+Medium Income,Initial capital,23
+Medium Income,Entrepreneurship,26
+Medium Income,Hard Work,27
+Medium Income,Luck,15
+Medium Income,Connections,32
+Medium Income,Talent,8
+Low Income,Qualifications,18
+Low Income,Cunning,32
+Low Income,Initial capital,27
+Low Income,Entrepreneurship,16
+Low Income,Hard Work,16
+Low Income,Luck,12
+Low Income,Connections,39
+Low Income,Talent,7
+High income,Qualifications,28
+High income,Cunning,11
+High income,Initial capital,15
+High income,Entrepreneurship,27
+High income,Hard Work,38
+High income,Luck,13
+High income,Connections,9
+High income,Talent,13
